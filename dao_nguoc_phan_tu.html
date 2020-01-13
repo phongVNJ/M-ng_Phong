@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>thuc hanh lenh reverse</title>
+    <script>
+        let x = [1,3,5,7,9,11];
+        let first = 0;
+        let last=x.length-1;
+        while (first<last){
+            let b = x [first];
+            x[first]= x[last];
+            x[last]=b;
+            first++;
+            last--;
+        }
+        document.write(x);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
